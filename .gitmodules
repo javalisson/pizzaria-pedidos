@@ -1,0 +1,8 @@
+[submodule "core"]
+	path = core
+	url = https://github.com/javalisson/pizzaria-pedidos-core.git
+	branch = master
+[submodule "ui"]
+	path = ui
+	url = https://github.com/javalisson/pizzaria-pedidos-ui.git
+	branch = master
