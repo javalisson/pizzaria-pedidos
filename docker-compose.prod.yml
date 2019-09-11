@@ -16,5 +16,6 @@ services:
   core:
     image: javalisson/pizzaria-pedidos-core:0.1
     command: npm run start
+    restart: always
     environment:
       NODE_ENV: production
