@@ -57,7 +57,7 @@ services:
       MYSQL_PASSWORD: ${MYSQL_PASSWORD}
       MYSQL_DATABASE: ${MYSQL_DATABASE}
     volumes:
-      - ./core/assets/db/:/docker-entrypoint-initdb.d/
+      - "./core/assets/db/init-db.sql:/docker-entrypoint-initdb.d/init-db.sql"
     expose:
       - "3306"
 volumes:
